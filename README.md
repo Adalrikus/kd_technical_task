@@ -26,6 +26,7 @@ Start VMs
 Change consul and nomad versions to latest
 
     vim ansible-role-consul/defaults/main.yml
+
     vim ansible-role-nomad/defaults/main.yml
 
 Provision your software with Ansible
@@ -35,8 +36,11 @@ Provision your software with Ansible
 Run Nomad jobs
 
     vagrant ssh node2/3/4
+
     cd /vagrant/jobs
+
     nomad run flask.nomad
+
     nomad run nginx.nomad
 
 Set up complete!
