@@ -148,7 +148,7 @@ job "nginx" {
       # are specific to each driver, so please see specific driver
       # documentation for more information.
       config {
-        image = "gregbk/nginx:latest"
+        image = "adilkhanzarubay/nginx:1.0"
         port_map {
           lb = 80
         }
