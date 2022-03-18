@@ -148,7 +148,7 @@ job "flask" {
       # are specific to each driver, so please see specific driver
       # documentation for more information.
       config {
-        image = "adilkhanzarubay/kd_technical_task:1.3"
+        image = "adilkhanzarubay/kd_technical_task:1.4"
         command = "/usr/local/bin/python"
         args  = ["/code/app.py"]
         #command = "hostname"
