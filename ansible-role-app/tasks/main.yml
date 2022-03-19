@@ -1,0 +1,7 @@
+---
+
+- name: Run Flask Job
+  command: /usr/bin/nomad job run /vagrant/jobs/flask.nomad
+
+- name: Run NGINX Job
+  command: /usr/bin/nomad job run /vagrant/jobs/nginx.nomad
