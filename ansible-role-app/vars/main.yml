@@ -1,0 +1,3 @@
+nomad_service: /usr/bin/nomad
+flask_dir: /vagrant/jobs/flask.nomad
+nginx_dir: /vagrant/jobs/nginx.nomad
