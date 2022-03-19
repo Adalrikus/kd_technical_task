@@ -1,7 +1,7 @@
 ---
 
 - name: Run Flask Job
-  command: {{ nomad_service }} job run {{ flask_dir }}
+  command: "{{ nomad_service }} job run {{ flask_dir }}"
 
 - name: Run NGINX Job
-  command: {{ nomad_service }} job run {{ nginx_dir }}
+  command: "{{ nomad_service }} job run {{ nginx_dir }}"
