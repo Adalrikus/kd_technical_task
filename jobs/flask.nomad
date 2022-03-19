@@ -91,7 +91,7 @@ job "flask" {
     restart {
       # The number of attempts to run the job within the specified interval.
       attempts = 10
-      interval = "5m"
+      interval = "10m"
 
       # The "delay" parameter specifies the duration to wait before restarting
       # a task after it has failed.
