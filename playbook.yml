@@ -13,3 +13,4 @@
   become: yes
   roles:
     - ansible-role-docker
+    - ansible-role-app
