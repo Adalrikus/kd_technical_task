@@ -33,14 +33,4 @@ Provision your software with Ansible
 
     ansible-playbook playbook.yml -i inventory
 
-Run Nomad jobs
-
-    vagrant ssh node2/3/4
-
-    cd /vagrant/jobs
-
-    nomad run flask.nomad
-
-    nomad run nginx.nomad
-
 Set up complete!
